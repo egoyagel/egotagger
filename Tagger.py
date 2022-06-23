@@ -24,19 +24,19 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/says$"))
 async def start(event):
-  await event.reply("**DeltaSaystaggerbot**\ DeltaSays federasyonuna ait etiket botudur\nKomutlar için =======> /delta yazın**",
+  await event.reply("**Tegger_utag_bot**\ hababam sınıfı  ait etiket botudur\nKomutlar için =======> /delta yazın**",
                     buttons=(
                         [
-                            Button.url('Beni Gruba Ekle ➕', 'https://t.me/DeltaSaystaggerbot?startgroup=a'),
+                            Button.url('Beni Gruba Ekle ➕', 'https://t.me/Tegger_utag_bot?startgroup=a'),
                         ],
                         [
-                            Button.url('Grup', 'https://t.me/DeltaSaysTeam'),
+                            Button.url('Grup', 'https://t.me/hababammsinifii'),
                         ],
                         [
-                            Button.url('Federasyon kanalı', 'https://t.me/DeltaSaysSiker'),
+                            Button.url('Federasyon kanalı', 'https://t.me/hababammsinifi'),
                         ],
 		                [
-                            Button.url('Developer👨🏻‍💻', 'https://t.me/egoyagel'),
+                            Button.url('Developer👨🏻‍💻', 'https://t.me/evrendestek'),
                         ],
                     ),
                     link_preview=False
@@ -47,16 +47,16 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                         [
-                            Button.url('Beni Gruba Ekle➕', 'https://t.me/DeltaSaystaggerbot?startgroup=a')
+                            Button.url('Beni Gruba Ekle➕', 'https://t.me/Tegger_utag_bot?startgroup=a')
                         ],
                         [
-                            Button.url('Grup', 'https://t.me/DeltaSaysTeam'),
+                            Button.url('Grup', 'https://t.me/hababammsinifii'),
                         ],
                         [
-                            Button.url('Federasyon  Kanalı', 'https://t.me/DeltaSaysSiker'),
+                            Button.url('Federasyon  Kanalı', 'https://t.me/hababammsinifi'),
                         ],
 		                [
-                            Button.url('Developer🧑‍🔧', 'https://t.me/egoyagel')
+                            Button.url('Developer🧑‍🔧', 'https://t.me/evrendestek')
                         ],
                     ),
                     link_preview=False
@@ -68,7 +68,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                         [
-                            Button.url('Botu Gruba Ekle➕', 'https://t.me/DeltaSaystaggerbot?startgroup=a'),
+                            Button.url('Botu Gruba Ekle➕', 'https://t.me/Tegger_utag_bot?startgroup=a'),
                         ],
                     ),
                     link_preview=False
@@ -301,5 +301,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> @DeltaSaystaggerbot aktif olarak çalışıyor <<")
+print(">> @Tegger_utag_bot aktif olarak çalışıyor <<")
 client.run_until_disconnected()
